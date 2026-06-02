@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amod Rathnayaka Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Amod.</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#resume">Resume</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Amod Rathnayaka</h1>
+      <h2>I'm a <span class="typing" id="typing-text"></span></h2>
+      <p>
+        Hello! I'm Amod Rathnayaka.  
+        I am passionate about Web Development, UI Design, and creating modern websites with animations and responsive layouts.
+      </p>
+      <a href="#" class="btn">Download CV</a>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://github.com/dashboard" target="_blank" class="icon-link">
+        <i class="fab fa-github"></i>
+    </a>
+       <a href="https://www.linkedin.com/feed/" target="_blank" class="icon-link">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle"></div>
+      <img src="amod.jpg" alt="Amod Rathnayaka">
+    </div>
+  </section>
+
+  <section class="services-section" id="services">
+    <h2 class="section-title">My <span>Services</span></h2>
+    
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>Web Development</h3>
+            <p>Creating responsive, high-performance websites using modern web technologies with clean code structures.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-pen-nib"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Designing user-centric, intuitive wireframes and interactive interfaces that offer seamless user journeys.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-palette"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>Crafting unique visual concepts, branding identities, and engaging marketing materials for businesses.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-chart-line"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>SEO Optimization</h3>
+            <p>Improving website visibility and search engine rankings through proper on-page optimization and structure.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-video"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>Video Editing</h3>
+            <p>Producing and editing high-quality video content with seamless transitions, audio tuning, and motion graphics.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="card-header">
+                <div class="icon"><i class="fas fa-camera"></i></div>
+                <button class="arrow-btn"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <h3>Photography</h3>
+            <p>Capturing professional photographs, corporate headshots, and scenic visual assets optimized for digital platforms.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="resume-section" id="resume">
+    <div class="resume-left">
+      <h2>Why Hire Me?</h2>
+      <p>I combine technical expertise in web development with a strong eye for design to deliver optimal user experiences.</p>
+      
+      <div class="tab-btn-container">
+        <button class="tab-btn" data-target="experience">Experience</button>
+        <button class="tab-btn" data-target="education">Education</button>
+        <button class="tab-btn" data-target="skills">Skills</button>
+        <button class="tab-btn" data-target="aboutme">About Me</button>
+      </div>
+    </div>
+
+    <div class="resume-right">
+      <div class="resume-content active" id="experience">
+        <h2>My <span>Experience</span></h2>
+        <p class="content-desc">A brief roadmap of my professional journey in software and web application development.</p>
+        <div class="experience-grid">
+          <div class="resume-card">
+            <div class="card-meta">2024 - Present</div>
+            <h3>Frontend Developer</h3>
+            <div class="sub-info">Freelance & Open Source</div>
+            <p>Developing fully custom corporate landing pages and robust layouts with optimized site performance.</p>
+          </div>
+          <div class="resume-card">
+            <div class="card-meta">2023 - 2024</div>
+            <h3>UI Designer</h3>
+            <div class="sub-info">Creative Agency</div>
+            <p>Built functional wireframes and interactive prototypes utilizing clean, grid-based interface systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-content" id="education">
+        <h2>My <span>Education</span></h2>
+        <p class="content-desc">My academic background and specialized certifications in data and computer sciences.</p>
+        <div class="education-grid">
+          <div class="resume-card">
+            <div class="card-meta">2023</div>
+            <h3>Certified Web Development</h3>
+            <div class="sub-info">Online Professional Program</div>
+            <p>Comprehensive training covering full-stack architecture, API integration, and database management solutions.</p>
+          </div>
+          <div class="resume-card">
+            <div class="card-meta">2022 - 2026</div>
+            <h3>BSc in Management and Information Technology (MIT)</h3>
+            <div class="sub-info">Undergraduate Studies</div>
+            <p>● South Eastern University of Sri Lanka
+
+Undergraduate studies focusing on the intersection of management disciplines and information technology. Gained hands-on experience in business analytics, enterprise systems, information systems management, and software development solutions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-content" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <p class="content-desc">Technologies and development tools I work with on a day-to-day basis.</p>
+        <div class="skills-grid">
+          <div class="skill-box" title="HTML5"><i class="fab fa-html5"></i></div>
+          <div class="skill-box" title="CSS3"><i class="fab fa-css3-alt"></i></div>
+          <div class="skill-box" title="JavaScript"><i class="fab fa-js"></i></div>
+          <div class="skill-box" title="React"><i class="fab fa-react"></i></div>
+          <div class="skill-box" title="Vue.js"><i class="fab fa-vuejs"></i></div>
+          <div class="skill-box" title="FontAwesome"><i class="fa-brands fa-font-awesome"></i></div>
+          <div class="skill-box" title="Node.js"><i class="fab fa-node-js"></i></div>
+          <div class="skill-box" title="MongoDB/Leaf"><i class="fas fa-leaf"></i></div>
+        </div>
+      </div>
+
+      <div class="resume-content" id="aboutme">
+        <h2>About <span>Me</span></h2>
+        <p class="content-desc">Personal insights, contact parameters, and my availability details.</p>
+        <div class="about-info-grid">
+          <div class="info-item"><span class="label">Name</span><span class="val">Amod Rathnayaka</span></div>
+          <div class="info-item"><span class="label">Gender</span><span class="val">Male</span></div>
+          <div class="info-item"><span class="label">City</span><span class="val">Kurunegala</span></div>
+          <div class="info-item"><span class="label">Nationality</span><span class="val">Sri Lankan</span></div>
+          <div class="info-item"><span class="label">Full Time</span><span class="val">Available</span></div>
+          <div class="info-item"><span class="label">Freelance</span><span class="val">Available</span></div>
+          <div class="info-item"><span class="label">Phone</span><span class="val">+94 76 761 9509</span></div>
+          <div class="info-item"><span class="label">Email</span><span class="val">amod62146@gmail.com</span></div>
+          <div class="info-item"><span class="label">Languages</span><span class="val">Sinhala, English</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-section" id="portfolio">
+    <h2 class="section-title">Latest <span>Project</span></h2>
+    <div class="project-container">
+      <div class="project-details">
+        <div class="project-num" id="p-num">01</div>
+        <h3 id="p-title">Project Title</h3>
+        <p id="p-desc">Project Description goes here...</p>
+        <div class="project-tech" id="p-tech">Technologies Used</div>
+        <div class="project-links">
+          <a href="#" id="p-live" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          <a href="#" id="p-github" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="project-display">
+        <div class="project-image-box">
+          <img src="" alt="Project Preview" id="p-img">
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-info">
+      <h2>Let's Work Together</h2>
+      <p>Have an exciting project or a business concept in mind? Reach out today, and let's construct a premium digital presence customized for your explicit needs.</p>
+      <div class="info-list">
+        <div class="info-card">
+          <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+          <div class="info-details">
+            <div>Phone</div>
+            <h4>+94 767619509</h4>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="icon-box"><i class="fas fa-envelope"></i></div>
+          <div class="info-details">
+            <div>Email</div>
+            <h4>amod62146@gmail.com</h4>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="info-details">
+            <div>Address</div>
+            <h4>Pothanegama, Moragollagama.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <h3>Contact <span>Me!</span></h3>
+      <form action="#">
+        <div class="form-grid">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="tel" placeholder="Phone Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea placeholder="Your Message" required></textarea>
+        <div class="form-btn-box">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
