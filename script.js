@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       num: "02",
-      title: "Creative Agency UI Portfolio",
-      desc: "An immersive UI/UX concept developed for dynamic digital business bureaus. Incorporates smooth transitions, high fidelity custom layouts, and clean grid-based interaction flows.",
-      tech: "Figma, HTML5, Vanilla CSS",
-      liveLink: "#",
-      githubLink: "#",
-      img: "amod.jpg"
+      title: "Serendib Travels Website",
+      desc: "A modern tourism website featuring interactive travel categories (Surfing, Hiking, Wildlife) with seamless dynamic content loading and an elegant popup login system tailored for exploring Sri Lanka.",
+      tech: "HTML5, Vanilla CSS, JavaScript",
+      liveLink: "https://travel-e8cj2at3r-amod62146-dels-projects.vercel.app",
+      githubLink: "https://github.com/amod62146-del/Cafee-website",
+      img: "travel.png"
     },
     {
       num: "03",
